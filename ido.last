@@ -1,0 +1,83 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/vanessa/Documents/Southampton/PhD/Software/" . "vampire/")
+ ("/Users/vanessa/.emacs.d/" . "custom/")
+ ("/Users/vanessa/" . ".emacs.d/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/vanessa/.emacs.d/custom/"
+ "/Users/vanessa/Documents/Southampton/PhD/Software/vampire/Vizualization/"
+ "/Users/vanessa/.emacs.d/"
+ "/Users/vanessa/Documents/"
+ "/Users/vanessa/Documents/Southampton/PhD/Software/vampire/src/program/"
+ "/Users/vanessa/Documents/Southampton/NumericalMethods/LinearSystems/"
+ "/Users/vanessa/Documents/Southampton/Simulation/SelfConsistentFields/CW/"
+ "/Users/vanessa/Documents/Southampton/Simulation/SelfConsistentFields/"
+ "/Users/vanessa/Documents/Website/resources/views/layouts/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "init-ui.el"
+ "plot_phase.py"
+ "phase_plot2.py"
+ "init.el"
+ "hello.txt"
+ "increase_field.cpp"
+ "vector.c"
+ "HartreeFock.py"
+ "SCF_v2.py"
+ "app.blade.php"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/vanessa/.emacs.d/custom/" (23899 58101 552610 647000) "init-yasnippet.el" "init-web.el" "#init-company.el#" "init-web.el~" "init-helm.el~" "init-helm.el" "init-ui.el" "init-elpy.el" "init-company.el" "init-ui.el~" "init-packages.el" "../" "./")
+
+ ("/Users/vanessa/.emacs.d/" (23899 58102 401625 676000) "custom/" "elpa/" "recentf" "idlwave/" "init.el" "url/" "auto-save-list/" "recentf~" "ido.last~" "eshell/" ".DS_Store" "init.el~" "ido.last" "snippets/" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/Software/vampire/src/program/" (23873 24444 310076 856000) "custom.cpp" "LLB_Boltzmann.cpp" "cmc_anisotropy.cpp" "effective_damping.cpp" "decay_rates.cpp" "bmark.cpp" "localised_temperature_pulse.cpp" "custom.cpp~" "lagrange.cpp" "curie_temperature.cpp" "static_hysteresis.cpp" "increase_field.cpp" "diagnostics.cpp" "time_series.cpp" "hamr.cpp" "increase_field.cpp~" "makefile" "local_field_cool.cpp" "field_cool.cpp" "temperature_pulse.cpp" "setting.cpp" "hybrid_cmc.cpp" "fmr.cpp" "hysteresis.cpp" "partial_hysteresis.cpp" "../" "./")
+
+ ("/Users/vanessa/" (23899 57789 302803 13000) "miniconda3/" ".composer/" ".cmake/" ".conda/" ".pcloud/" ".viminfo" ".bash_history" ".gitconfig" ".cache/" ".python_history" "Downloads/" ".oh-my-zsh/" ".Xauthority" ".gem/" ".bash_profile" ".hyper.js" ".vscode/" ".mono/" ".rstudio-desktop/" ".serverauth.50208" "Documents/" ".npm/" ".zcompdump" ".emscripten_cache/" ".jupyter/" ".gitflow_export" ".Trash" ".Rapp.history" "Applications/" "Movies/" ".ssh/" "packages/" ".bash_profile-miniconda3.bak" ".RData" "pCloud Sync/" ".hyper_plugins/" "Public/" ".rasmol/" ".bash_sessions/" ".gitignore_global" ".emacs.d/" ".condarc~" "Calibre Library/" ".oracle_jre_usage/" ".matplotlib/" "Library/" "Desktop/" ".ipython/" ".zsh_history" ".emscripten_cache.lock" ".gnome2/" ".bundle/" ".nvm/" ".atom/" ".pylint.d/" ".zcompdump-UOS-17352-5.7.1" "Pictures/" ".emscripten" ".local/" ".serverauth.84648" ".bash_profile~" ".zshrc" ".zshrc.pre-oh-my-zsh" ".bashrc" ".subversion/" ".vagrant.d/" ".emscripten_sanity" "bin/" ".hyper.js~" ".wget-hsts" ".hgignore_global" "rtags/" ".CFUserTextEncoding" "VirtualBox VMs/" ".thumbnails/" ".zshrc~" ".DS_Store" ".docker/" ".condarc" "Music/" ".gnuplot_history" ".config/" "pCloud Drive/" ".Rhistory" ".zcompdump-UOS-17352-5.3" "../" "./")
+
+ ("/Users/vanessa/Documents/" (23897 14564 852393 309000) "Josh/" "Southampton/" "C/" "Computer/" "Packages/" "Game/" "Website/" "2018-11-26-Investments.xlsx" ".localized" ".DS_Store" "C++/" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/Software/vampire/Vizualization/" (23706 15225 271544 652000) "#reformatData.py#" ".#reformatData.py" "Data/" "load_data.py" "data-pbc-rate1.txt" "DataLoader.py" "index.html~" "phase_plot.py" "helo.js" "index4.html" "__pycache__/" "data-pbc-rate500_spliced.txt" "skel_html.html" "utility.py" "index_v2.html" "splice_data.py" "index5.html" "splice_data.py~" "phase_plot.py~" "DataLoader.py~" "data-pbc-rate500.txt" ".DS_Store" "index.html" "index2.html" "index3.html" "phase_plot2.py~" "utility.py~" "phase_plot2.py" "load_data.py~" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/Software/vampire/" (23675 55425 115399 688000) "src/" "BSD_licence" "vampire-serial" "Vampire.vcxproj.user" "Vampire.vcxproj" ".git/" "unitcell.ucf~" "clean.sh" "log" "Vizualization/" ".gitignore" "Vampire.props" "manual/" "vampire-parallel" "samples/" "readme.md" "unitcell.ucf" ".editorconfig" "__pycache__/" ".#test.py" "Co.mat" "SimpleCubic.ucf" "output" "tests/" "mz_plot.py" "Vampire.sln" "hdr/" "makefile" "mz_plot.py~" "input" "util/" "license" ".DS_Store" "Vampire.vcxproj.filters" "mat/" "obj/" ".vampire_git_branches" "threads.sh" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/Software/" (23645 17230 502118 332000) "povray/" "Finmag/" ".DS_Store" "fleur/" "vampire/" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/" (23643 3316 893344 503000) "Summer Project/" "Data/" "Meetings/" "Seminar/" "Notes/" "Software/" "Papers/" ".DS_Store" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/PhD/Data/" (23706 14469 372253 351000) "plot_phase.py~" "2019-02-11-Rate100_FC/" "atoms-coords.data" "2019-03-02-Rate100_ZFC/" "2019-03-03-PdFe-FC/" "mz_plot.py" "DataContents.xlsx" "plot_phase.py" "2019-03-03-PdFe-FC-1.5/" ".DS_Store" "2019-03-03-PdFe-ZFC/" "2019-03-07-PdFe_TimeStep/" "2019-03-02-Rate100_FC_1.5/" "../" "./")
+
+ ("/Users/vanessa/packages/emacs-26.1/info/" (23304 15532 0 0) "woman.info" "ede.info" "dired-x.info" "sc.info" "eintr.info" "pgg.info" "eshell.info" "eudc.info" "vhdl-mode.info" "tramp.info" "message.info" "ccmode.info" "octave-mode.info" "bovine.info" "auth.info" "wisent.info" "epa.info" "efaq-w32.info" "org.info" "remember.info" "mh-e.info" "ert.info" "ido.info" "forms.info" "dir" "emacs-gnutls.info" "semantic.info" "info.info" "sasl.info" "cl.info" "htmlfontify.info" "vip.info" "ada-mode.info" "eieio.info" "calc.info" "emacs-mime.info" "pcl-cvs.info" "url.info" "srecode.info" "edt.info" "ses.info" "elisp.info" "sieve.info" "speedbar.info" "mairix-el.info" "eww.info" "gnus.info" "ediff.info" "emacs.info" "newsticker.info" "rcirc.info" "autotype.info" "todo-mode.info" "ebrowse.info" "viper.info" "reftex.info" "nxml-mode.info" "efaq.info" "idlwave.info" "smtpmail.info" "dbus.info" "erc.info" "flymake.info" "widget.info" "../" "./")
+
+ ("/Users/vanessa/Documents/Website/resources/views/layouts/" (23601 24853 575602 859000) "maths.blade.php" "topology.blade.php~" "app.blade.php" "topology.blade.php" "maths.blade.php~" "app.blade.php~" "numerical.blade.php~" "numerical.blade.php" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/Simulation/SelfConsistentFields/" (23608 11230 867568 731000) "SCF_v2.py" "CW/" "SCF.py~" ".ipynb_checkpoints/" "11-Self-Consistent-Fields-Lab-1-solutions(1).ipynb" "SCF.py" "SCF_v2.py~" "11-Self-Consistent-Fields-Lab-1.ipynb" "H2O-two-electron.dat" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/Simulation/SelfConsistentFields/CW/" (23608 24716 635825 150000) "test_SCF.py~" "test_SCF.py" "HartreeFock.py~" "main.py" "chi.txt" "HartreeFock.py" "__pycache__/" "H2O-two-electron.dat" ".pytest_cache/" ".DS_Store" "main.py~" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/NumericalMethods/LinearSystems/" (23623 40914 982681 482000) "vector.c~" "vector" "vector.h" "test.c" "LU" "test.c~" "LU.c" "hello_mpi.c" "mat2.txt~" "LU.c~" "matrix.h" "vector.c" "matrix.txt" "test" "mat2.txt" "matrix2.h" "gauss_elimination.c" "hello_mpi.c~" "vector.h~" "matrix.txt~" "hello_mpi" "../" "./")
+
+ ("/Users/vanessa/Documents/Website/resources/views/" (23593 8660 900700 68000) "welcome.blade.php~" "maths.blade.php" "layouts/" "header.blade.php~" "maths.blade.php~" "header.blade.php" "welcome.blade.php" "../" "./")
+
+ ("/Users/vanessa/pCloud Drive/Southampton/Simulation/FEA/" (23560 564 0 0) ".#FEA_v5.py" "3DPlot-Error.png" "3DPlot-T-exact.png" "3DPlot_L=0.25.png" "SurfacePlot_T-exact.png" "SurfacePlot_L=0.25.png" "3DPlot_L=0.5.png" "SurfacePlot_L=0.5.png" "G_Mesh_L=0.25.png" ".png" "G_Mesh_L=0.5.png" "la.py" "la.py~" "G_Mesh.png" "FEA_v5.py" "#simple_grid.py#" ".#simple_grid.py" "FEA_v5.py~" "Simple-Mesh.png" "simple_grid.py" "simple_grid.py~" ".#test_FEA.py" "utility.py" "utility.py~" "test_FEA.py" "test_FEA.py~" "#test_FEA.py#" "#FEA_v5.py#" "grid_gen.py" "FEA_v4.py" "fea.py" "fea.py~" ".pytest_cache/" "__pycache__/" "../" "./")
+
+ ("/Users/vanessa/Documents/Southampton/Simulation/FEA/" (23554 64486 169069 114000) ".#test_FEA.py" "Coursework-02-Agents-Finite-Elements (1).ipynb" "FEA_v3.py" "FEA_v2.py" ".ipynb_checkpoints/" "#test_FEA.py#" "__pycache__/" "#FEA_v2.py#" "fea.py" "test_FEA.py~" "grid_gen.py~" "fea.py~" ".pytest_cache/" "FEA_v2.py~" "test_FEA.py" "grid_gen.py" ".#FEA_v2.py" "Lab1/" "../" "./")
+
+ ("/Users/vanessa/Documents/vampire/" (23483 24643 751748 556000) "atoms-00000027.cfg" "atoms-coords1.cfg" "atoms-00000026.cfg" "data.txt" "file.ucf" "atoms-00000024.cfg" "atoms-00000018.cfg" "atoms-00000019.cfg" "atoms-00000025.cfg" "write_data.c" "atoms-00000009.cfg" "atoms-00000021.cfg" "atoms-00000020.cfg" "atoms-00000008.cfg" "atoms1-00000030.cfg" "atoms-00000030.cfg~" "atoms-00000022.cfg" "atoms-00000023.cfg" "atoms-00000030.dat" "log" "atoms-coords.cfg" "input~" "write_data.c~" "Co.mat" "output" "atoms-coords.cfg~" "install.sh" "writedata" "input" "atoms-00000012.cfg" "atoms-00000006.cfg" "atoms-00000007.cfg" "atoms-00000013.cfg" "license" "atoms-00000005.cfg" "atoms-00000011.cfg" "atoms-00000010.cfg" "atoms-00000004.cfg" "Co.mat~" "atoms-00000028.cfg" "atoms-00000000.cfg" "atoms-00000014.cfg" "atoms-00000015.cfg" "atoms-00000001.cfg" "atoms-00000029.cfg" "atoms_30.dat" "atoms-00000017.cfg" "atoms-00000003.cfg" ".#write_data.c" "atoms-00000002.cfg" "atoms-00000016.cfg" "vampire" "../" "./")
+
+ ("/Users/vanessa/Documents/C++/Test/" (23474 11453 371484 812000) ".#main.cpp" "main.cpp" "hello" "main.cpp~" "makefile" "hello.dSYM/" "../" "./")
+
+ ("/Users/" (23455 33284 354885 2000) "subscribe/" "vanessa/" "Shared/" ".localized" "macadmin/" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
