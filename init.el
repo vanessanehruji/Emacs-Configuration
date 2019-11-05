@@ -13,6 +13,14 @@
 
 (setq neo-theme (if (display-graphic-p) 'icons 'arrow))
 
+(use-package pdf-tools
+  :ensure t
+  :config
+  (custom-set-variables
+    '(pdf-tools-handle-upgrades nil)) ; Use brew upgrade pdf-tools instead.
+  (setq pdf-info-epdfinfo-program "/usr/local/bin/epdfinfo"))
+(pdf-tools-install)
+
 (require 'web-mode)
 (add-to-list 'auto-mode-alist '("\\.phtml\\'" . web-mode))
 (add-to-list 'auto-mode-alist '("\\.tpl\\.php\\'" . web-mode))
@@ -50,7 +58,7 @@
  '(helm-display-buffer-height 30)
  '(package-selected-packages
    (quote
-    (doom-modeline all-the-icons org neotree emmet-mode company-web web-mode flymake sr-speedbar yasnippet-snippets company-irony company-c-headers use-package rtags python-x python-mode magit jedi helm elpy doom-themes auctex anki-editor anaconda-mode))))
+    (pdf-tools doom-modeline all-the-icons org neotree emmet-mode company-web web-mode flymake sr-speedbar yasnippet-snippets company-irony company-c-headers use-package rtags python-x python-mode magit jedi helm elpy doom-themes auctex anki-editor anaconda-mode))))
 
 (delete-file "~/Library/Colors/Emacs.clr")
  
