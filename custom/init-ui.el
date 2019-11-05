@@ -13,7 +13,7 @@
 (setq initial-scratch-message nil)
 
 ;; Remove scroll-bar, tool-bar and menu-bar
-(scroll-bar-mode -1)
+;;(scroll-bar-mode -1)
 (tool-bar-mode -1)
 (menu-bar-mode -1)
 
@@ -21,7 +21,7 @@
 (add-to-list 'initial-frame-alist '(fullscreen . maximized))
 (add-to-list 'default-frame-alist '(fullscreen . fullheight))
 
-(set-face-attribute 'default (selected-frame) :height 160)
+(set-face-attribute 'default (selected-frame) :height 140)
 
 ;; Alt-3 gives the hash symbol rather than the metakey-3
 (global-set-key (kbd "M-3") '(lambda () (interactive) (insert "#")))
